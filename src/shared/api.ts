@@ -108,6 +108,7 @@ export interface ApiHandlerOptions {
 	sapAiCoreTokenUrl?: string
 	sapAiCoreBaseUrl?: string
 	sapAiCoreModelId?: string
+	zUserToken?: string
 	onRetryAttempt?: (attempt: number, maxRetries: number, delay: number, error: any) => void
 }
 
